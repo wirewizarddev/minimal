@@ -1,0 +1,8 @@
+BUILD
+=====
+
+mkdir build && cd build
+cmake -DCMAKE_BUILD_TYPE=minimal -DBASHENABLE=1 ..
+make
+cp ww /usr/local/bin/
+ww --help
